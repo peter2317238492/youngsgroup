@@ -3,11 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Group Page</title>
+    <title>Team Project Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .team-member {
+            background-color: #fff;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Our Group's Website</h1>
-    <p>This is a simple webpage hosted on GitHub Pages.</p>
+
+<header>
+    <h1>Team Project Website</h1>
+    <p>Project Title: <strong>Your Project Name</strong></p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#team">Team Members</a>
+    <a href="#progress">Project Progress</a>
+    <a href="#results">Results</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <h2>About the Project</h2>
+        <p>This project is focused on <em>[brief description of your project]</em>. Our goal is to <em>[project goals]</em>.</p>
+    </section>
+
+    <section id="team">
+        <h2>Team Members</h2>
+        <div class="team-member">
+            <h3>Member 1 Name</h3>
+            <p>Email: member1@example.com</p>
+            <p>Role: [e.g., Project Leader, Developer, Designer]</p>
+        </div>
+        <div class="team-member">
+            <h3>Member 2 Name</h3>
+            <p>Email: member2@example.com</p>
+            <p>Role: [e.g., Developer, Researcher]</p>
+        </div>
+        <div class="team-member">
+            <h3>Member 3 Name</h3>
+            <p>Email: member3@example.com</p>
+            <p>Role: [e.g., Designer, Tester]</p>
+        </div>
+        <div class="team-member">
+            <h3>Member 4 Name</h3>
+            <p>Email: member4@example.com</p>
+            <p>Role: [e.g., Developer, Analyst]</p>
+        </div>
+    </section>
+
+    <section id="progress">
+        <h2>Project Progress</h2>
+        <p>Here, you can update the project milestones and progress regularly. Include screenshots, code snippets, or any other relevant information.</p>
+    </section>
+
+    <section id="results">
+        <h2>Project Results</h2>
+        <p>Once the project is complete, use this section to showcase the final results, reports, or presentations.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you have any questions, feel free to reach out to us at <strong>team-email@example.com</strong>.</p>
+    </section>
+</div>
+
+<footer>
+    <p>Team Project © 2024</p>
+</footer>
+
 </body>
 </html>
-
